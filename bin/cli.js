@@ -5,17 +5,17 @@ const chalk = require('chalk')
 const figlet = require('figlet')
 
 const packageData = require('../package.json')
-const createTemplate = require('../lib/create')
 const repoTemplates = require('../repos')
+const createTemplate = require('../lib/create')
 
 program
   // 定义创建命令和参数
-  .command('create <app-name>')
+  .command('create')
   .description('create a new project')
   .option('-f, --force', 'overwrite target directory if it exist') // 是否强制创建，如果创建的目录存在则直接覆盖
-  .action((name, options) => {
+  .action((options) => {
     // 在 create.js 中执行创建任务
-    createTemplate(name, options)
+    createTemplate(options)
   })
 
 program
@@ -23,7 +23,7 @@ program
   .command('list')
   .alias('ls')
   .description('show the list of all templates')
-  .action((name, options) => {
+  .action(() => {
     for (let temp of repoTemplates) {
       console.log(chalk.green(temp.name))
     }
