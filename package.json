@@ -1,38 +1,38 @@
 {
-    "name": "fe-repo-cli",
-    "version": "0.0.1",
-    "description": "A cli tool for web developer",
-    "main": "index.js",
-    "bin": {
-        "fe-repo-cli": "./bin/cli.js"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/wxw17/fe-repo-cli.git"
-    },
-    "keywords": [
-      "fe-repo-cli",
-      "cli",
-      "template",
-      "repo",
-      "web"
-    ],
-    "author": "wxw17",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/wxw17/fe-repo-cli/issues"
-    },
-    "homepage": "https://github.com/wxw17/fe-repo-cli#readme",
-    "dependencies": {
-        "chalk": "4.1.2",
-        "commander": "^9.0.0",
-        "download-git-repo": "^3.0.2",
-        "figlet": "^1.7.0",
-        "fs-extra": "^10.0.0",
-        "inquirer": "^8.2.0",
-        "ora": "5.1.0"
-    }
+  "name": "fe-repo-cli",
+  "version": "1.0.0",
+  "description": "A cli tool for web developer",
+  "main": "index.js",
+  "bin": {
+    "fe-repo-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxw17/fe-repo-cli.git"
+  },
+  "keywords": [
+    "fe-repo-cli",
+    "cli",
+    "template",
+    "repo",
+    "web"
+  ],
+  "author": "wxw17",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wxw17/fe-repo-cli/issues"
+  },
+  "homepage": "https://github.com/wxw17/fe-repo-cli#readme",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "^9.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.7.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "ora": "5.1.0"
+  }
 }
