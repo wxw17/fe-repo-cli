@@ -2,7 +2,7 @@
   "name": "fe-repo-cli",
   "version": "1.0.0",
   "description": "A cli tool for web developer",
-  "main": "index.js",
+  "main": "./bin/cli.js",
   "bin": {
     "fe-repo-cli": "./bin/cli.js"
   },
@@ -21,7 +21,7 @@
     "web"
   ],
   "author": "wxw17",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/wxw17/fe-repo-cli/issues"
   },
