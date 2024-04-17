@@ -1,7 +1,7 @@
 {
   "name": "fe-repo-cli",
-  "version": "1.0.0",
-  "description": "A cli tool for web developer",
+  "version": "1.0.1",
+  "description": "一款包含h5、pc、node-web类型的脚手架",
   "main": "./bin/cli.js",
   "bin": {
     "fe-repo-cli": "./bin/cli.js"
