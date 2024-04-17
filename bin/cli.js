@@ -5,7 +5,6 @@ const chalk = require('chalk')
 const figlet = require('figlet')
 
 const packageData = require('../package.json')
-const repoTemplates = require('../repos')
 const createTemplate = require('../lib/create')
 
 program
@@ -24,8 +23,8 @@ program
   .alias('ls')
   .description('show the list of all templates')
   .action(() => {
-    for (let temp of repoTemplates) {
-      console.log(chalk.green(temp.name))
+    for (let name of ['ProjectA', 'ProjectB']) {
+      console.log(chalk.green(name))
     }
   })
 

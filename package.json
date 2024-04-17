@@ -1,20 +1,21 @@
 {
-  "name": "fe-repo-cli",
-  "version": "1.0.0",
-  "description": "A cli tool for web developer",
+  "name": "code-module-cli",
+  "version": "0.1.1",
+  "description": "一款用于构建业务代码块的cli工具",
   "main": "./bin/cli.js",
   "bin": {
-    "fe-repo-cli": "./bin/cli.js"
+    "page-cli": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wxw17/fe-repo-cli.git"
+    "url": "git+https://github.com/wxw17/fe-repo-cli/tree/code-module-cli"
   },
   "keywords": [
     "fe-repo-cli",
+    "code-module-cli",
     "cli",
     "template",
     "repo",
